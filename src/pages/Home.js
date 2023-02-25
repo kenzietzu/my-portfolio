@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Home.css';
 import { motion } from 'framer-motion';
+import Linkedin from '../assets/linkedin.svg';
+import Github from '../assets/github.svg';
+
 
 const banner = {
   hidden: { opacity: 0 },
@@ -17,7 +20,7 @@ const introContainer = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.25,
+      staggerChildren: 0.15,
     },
   },
 };
@@ -61,8 +64,14 @@ const home = () => {
           <motion.h1
             className='intro'
             variants={intro}>
-            &nbsp;Based in Taiwan.&nbsp;
-          </motion.h1>
+            &nbsp;Based in 🇹🇼TAIWAN.&nbsp;
+          </motion.h1><br/>
+          <motion.div
+            className='intro'
+            variants={intro}>
+            <a href="https://github.com/kenzietzu" target="_blank"><img className='icon' src={Github}/></a>
+            <a href="#https://www.linkedin.com/in/charlie-chang-b8a66b170/" target="_blank"><img className='icon' src={Linkedin}/></a>&nbsp;
+          </motion.div>
         </motion.div> 
       </motion.div>
     </div>

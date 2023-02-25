@@ -12,29 +12,49 @@
 }
 
 .intro {
-  color: #ffffff;
+  color: #353535;
   font-family: 'Press Start 2P', cursive;
   font-size: 3.5rem;
   line-height: 0rem;
   letter-spacing: 0.1rem;
-  text-shadow: 5px 3px 1px #00d2d2;
+  /* text-shadow: 5px 3px 1px #ffffff; */
   /* background-color: #00d2d2; */
   /* margin-left: 26rem; */
   text-align: left;
   display: inline-block;
   z-index: 1;
+  position: relative;
 }
 
 .intro::after {
   content: "";
   background-color: #00d2d2;
-  height: 3rem;
+  height: 2rem;
   width: 100%;
   display: block;
-  z-index: 0;
+  z-index: -1;
+  position: absolute;
 }
+
+.icon {
+  width: 3rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  background-color: #fbff00
+}
+
+
 
 /*
 #00d2d2;
 #fbff00;
 */
+
+@media screen and (max-width: 70rem) {
+  .intro {
+    font-size: 2.5rem;
+  }
+  .bg {
+    background-size: 90%;
+  }
+}
