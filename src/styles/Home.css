@@ -1,0 +1,40 @@
+.bg {
+  background-image: url("../assets/bg1.jpeg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro {
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  line-height: 0rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 5px 3px 1px #00d2d2;
+  /* background-color: #00d2d2; */
+  /* margin-left: 26rem; */
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+
+.intro::after {
+  content: "";
+  background-color: #00d2d2;
+  height: 3rem;
+  width: 100%;
+  display: block;
+  z-index: 0;
+}
+
+/*
+#00d2d2;
+#fbff00;
+*/
