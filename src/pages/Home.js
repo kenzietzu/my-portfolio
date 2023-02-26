@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import { motion } from 'framer-motion';
 import Linkedin from '../assets/linkedin.svg';
 import Github from '../assets/github.svg';
+import Envelope from '../assets/envelope.svg';
 
 
 const banner = {
@@ -70,7 +71,8 @@ const home = () => {
             className='intro'
             variants={intro}>
             <a href="https://github.com/kenzietzu" target="_blank"><img className='icon' src={Github}/></a>
-            <a href="#https://www.linkedin.com/in/charlie-chang-b8a66b170/" target="_blank"><img className='icon' src={Linkedin}/></a>&nbsp;
+            <a href="https://www.linkedin.com/in/charlie-chang-b8a66b170/" target="_blank"><img className='icon' src={Linkedin}/></a>
+            <a href="mailto:kenzietzu201@gmail.com" target="_blank"><img className='icon' src={Envelope}/></a>&nbsp;
           </motion.div>
         </motion.div> 
       </motion.div>
