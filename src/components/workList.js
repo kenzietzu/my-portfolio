@@ -21,7 +21,7 @@ export const WorkList = [
     },
     {
         image: Work2,
-        name: 'Animation: Artificial Rainbow (duration 4:22)',
+        name: 'Animation: Artificial Rainbow (run time 4:22)',
         skills: 'Premier, Photoshop',
     },
 ]

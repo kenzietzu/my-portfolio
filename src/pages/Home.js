@@ -64,7 +64,7 @@ const home = () => {
           <motion.h1
             className='intro'
             variants={intro}>
-            &nbsp;Based in 🇹🇼TAIWAN.&nbsp;
+            &nbsp;Based in TAIWAN.&nbsp;
           </motion.h1><br/>
           <motion.div
             className='intro'

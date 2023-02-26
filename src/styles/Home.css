@@ -40,7 +40,13 @@
   width: 3rem;
   margin-left: 3rem;
   margin-top: 2rem;
-  background-color: #fbff00
+  background-color: #fbff00;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  background-color: #00d2d2;
+  transform: rotate(30deg);
 }
 
 
