@@ -1,5 +1,5 @@
 .bg {
-  background-image: url("../assets/bg1.jpeg");
+  background-image: url("../assets/bg1.jpg");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,6 +53,15 @@
 @media screen and (max-width: 70rem) {
   .intro {
     font-size: 2.5rem;
+  }
+  .bg {
+    background-size: 90%;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .intro {
+    font-size: 1.7rem;
   }
   .bg {
     background-size: 90%;

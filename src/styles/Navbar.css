@@ -24,3 +24,9 @@ a:hover {
     color: #00d2d2;
     font-size: 3rem;
 }
+
+@media screen and (max-width: 40rem) {
+    .navbar {
+        font-size: 2rem;
+  }
+}

@@ -40,5 +40,6 @@ h1 {
 @media screen and (max-width: 50rem) {
     .skill-container {
       font-size: 2.5rem;
+      padding-left: 1rem;
     }
   }
