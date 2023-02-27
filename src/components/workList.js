@@ -2,8 +2,14 @@ import Work1 from '../assets/work-1.png';
 import Work2 from '../assets/work-2.png';
 import Work3 from '../assets/work-3.jpg';
 import Work4 from '../assets/work-4.jpg';
+import Work5 from '../assets/work-5.png'
 
 export const WorkList = [
+    {
+        image: Work5,
+        name: 'Website: portfolio',
+        skills: 'React, Framer Motion',
+    },
     {
         image: Work4,
         name: 'WebApp: Stock Dashboard',

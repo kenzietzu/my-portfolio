@@ -35,7 +35,8 @@ const Skills = () => {
         className='skill-box'
         variants={intro}>
           <h2>Front-End</h2>
-          <div>Python, Javascript, React, css, html</div>
+          <div>Python, Javascript, React, Nextjs, Typescript,</div>
+          <div>css, html</div>
         </motion.div>
         <motion.div 
         className='skill-box'
@@ -50,6 +51,8 @@ const Skills = () => {
           <div>I graduated from Taiwan University of Arts,</div>
           <div> 
           majored in multiple media and animation arts. </div>
+          <div className='ch'>畢業於臺灣藝術大學多媒體動畫藝術學系</div>
+          <div className='ch'>英語多益檢定930分</div>
         </motion.div>
       </div>
     </motion.div>

@@ -34,7 +34,11 @@ h1 {
 
 .skill-box {
     margin-top: 5rem;
+}
 
+.ch {
+  font-size: 1.7rem;
+  line-height: 3rem;
 }
 
 @media screen and (max-width: 50rem) {
