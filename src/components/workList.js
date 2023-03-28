@@ -4,16 +4,22 @@ import Work3 from '../assets/work-3.jpg';
 import Work4 from '../assets/work-4.jpg';
 import Work5 from '../assets/work-5.png';
 import Work6 from '../assets/work-6.jpg';
+import Work7 from '../assets/work-7.png';
 
 export const WorkList = [
     {
+        image: Work7,
+        name: 'Website: Blog',
+        skills: 'React, Authentication, Firebase',
+    },
+    {
         image: Work6,
-        name: 'WebApp: donuts order app',
+        name: 'WebApp: Donuts order app',
         skills: 'React, Redux Toolkit',
     },
     {
         image: Work5,
-        name: 'Website: portfolio',
+        name: 'Website: Portfolio',
         skills: 'React, Framer Motion',
     },
     {
