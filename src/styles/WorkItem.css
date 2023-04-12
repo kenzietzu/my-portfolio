@@ -33,3 +33,10 @@
     margin-left: 2rem;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 40rem) {
+    .work-image {
+        width: 100%;
+        height: 23rem;
+    }
+}

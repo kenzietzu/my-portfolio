@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Skills.css';
 import { motion } from 'framer-motion';
+import Loader from 'react-loaders';
 
 const introContainer = {
   hidden: { opacity: 0 },
@@ -55,6 +56,7 @@ const Skills = () => {
           <div className='ch'>英語多益檢定930分</div>
         </motion.div>
       </div>
+      <Loader type='square-spin' color='yellow' />
     </motion.div>
     
   )
