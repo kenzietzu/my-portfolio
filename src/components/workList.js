@@ -5,8 +5,14 @@ import Work4 from '../assets/work-4.jpg';
 import Work5 from '../assets/work-5.png';
 import Work6 from '../assets/work-6.jpg';
 import Work7 from '../assets/work-7.png';
+import Work8 from '../assets/work-8.png';
 
 export const WorkList = [
+    {
+        image: Work8,
+        name: 'Website: Social Media',
+        skills: 'React, Authentication, Firebase, Chakra UI',
+    },
     {
         image: Work7,
         name: 'Website: Blog',

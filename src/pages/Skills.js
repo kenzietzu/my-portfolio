@@ -36,7 +36,7 @@ const Skills = () => {
         className='skill-box'
         variants={intro}>
           <h2>Front-End</h2>
-          <div>Javascript, React, Typescript,</div>
+          <div>Javascript, React, Chakra UI</div>
           <div>css, html</div>
         </motion.div>
         <motion.div 
